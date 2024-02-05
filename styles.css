@@ -2,6 +2,27 @@ body {
     background-color: whitesmoke;
 }
 
+.author_body {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.person {
+    border: 3px inset gray;
+    margin-top: 20px;
+}
+
+.person p {
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+#date {
+    font-size: large;
+}
+
 footer {
     background-color: whitesmoke;
 }
