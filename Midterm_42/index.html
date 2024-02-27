@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematch</title>
+
+    <link rel="stylesheet" href="./styles/headers_footers.css">
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <script src="index.js"></script>
+
+</head>
+<body>
+    
+    <header>
+
+        <!-- finish designing header - need navigation (pull from bootstrap?) -->
+
+        <div id="header_title">
+            <h2>Cinematch</h2>
+        </div>
+        <!-- <img src="" alt=""> -->
+    </header>
+
+    <main>
+
+        <section id="filters">
+
+            <h1>Filters</h1>
+
+            <div id="genres">
+                <label>
+                    <input type="checkbox" name="genre" value="action">Action
+                </label>
+                <label>
+                    <input type="checkbox" name="genre" value="horror">Horror
+                </label>
+                <label>
+                    <input type="checkbox" name="genre" value="comedy">Comedy
+                </label>
+                <label>
+                    <input type="checkbox" name="genre" value="crime">Crime
+                </label>
+            </div>
+
+        </section>
+
+        <section id="search">
+            <form>
+                <p>Searched: <input type="text" name="search" value="Search for ..."></p>
+                <button type="button" onclick="loadSearch();">Search for Movie</button>
+            </form>
+        </section>
+
+        <section id="movie_list">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Dylan Booth  & Nate Reff 2024</p>
+    </footer>
+
+</body>
+</html>

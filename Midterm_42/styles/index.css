@@ -1,0 +1,32 @@
+/* 
+    Authors: Dylan Booth & Nate Reff
+*/
+
+/* filters section */
+
+#genres {
+    display: flex;
+    flex-direction: column;
+}
+
+#genres label {
+    font-size: large;
+    margin-bottom: 3px;
+}
+
+/* search section */
+
+#search {
+    display: flex;
+}
+
+/* movie list section */
+
+#movie_list {
+    margin: 10px;
+}
+
+#movie_list div {
+    border: 2px black solid;
+    margin-bottom: 5px;
+}
