@@ -42,14 +42,18 @@
                 <label>
                     <input type="checkbox" name="genre" value="crime">Crime
                 </label>
+
+                <form>
+                    <button type="button" onclick="loadFilter();">Apply Filters</button>
+                </form>
             </div>
 
         </section>
 
-        <section id="search">
-            <form>
+        <section>
+            <form id="search_form">
                 <p>Searched: <input type="text" name="search" value="Search for ..."></p>
-                <button type="button" onclick="loadSearch();">Search for Movie</button>
+                <button type="button" onclick="getLoadSearch();">Search for Movie</button>
             </form>
         </section>
 
