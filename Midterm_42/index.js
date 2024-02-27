@@ -17,7 +17,7 @@ function loadAll(movies) {
         let div = document.createElement("div");
         div.innerHTML = `
             <h3>${title}<\h3><br>
-            <h3>${desc}<\h3>
+            <p>${desc}<\p>
         `;
 
         container.append(div);
@@ -56,7 +56,7 @@ function getLoadSearch() {
                 let div = document.createElement("div");
                 div.innerHTML = `
                     <h3>${title}<\h3><br>
-                    <h3>${desc}<\h3>
+                    <p>${desc}<\p>
                 `;
         
                 container.append(div);

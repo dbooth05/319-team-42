@@ -2,19 +2,31 @@
     "movies": [
         {
             "title":"John Wick",
-            "genres": {
-
-            },
+            "genres": ["Action", "Crime", "Thriller"],
             "release": "October 24, 2014",
+            "mv_rating": "R",
             "description": "a description of John Wick"
         },
         {
             "title":"John Wick: Chapter 2",
-            "genres": {
-
-            },
-            "release": "",
+            "genres": ["Action", "Crime", "Thriller"],
+            "release": "February 10, 2017",
+            "mv_rating": "R",
             "description": "a description of John Wick: Chapter 2"
+        },
+        {
+            "title": "Jumanji",
+            "genres": ["Adventure", "Comedy", "Family", "Fantasy"],
+            "release": "December 15, 1995",
+            "mv_rating": "PG",
+            "description": "a description of Jumanji"
+        },
+        {
+            "title":"Jumanji: Welcome to the Jungle",
+            "genres": ["Action", "Adventure", "Comedy"],
+            "release": "December 20, 2017",
+            "mv_rating": "PG-13",
+            "description": "a description of Jumanji"
         }
     ]
 }
