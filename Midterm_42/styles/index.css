@@ -28,5 +28,19 @@
 
 #movie_list div {
     border: 2px black solid;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#movie_list div #data {
+    padding: 2px;
+    border: none;
+    display: block;
+    justify-content: initial;
+}
+
+#movie_list div #get_info {
+    border: none;
 }
