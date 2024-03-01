@@ -25,12 +25,12 @@
 
     <main>
 
-        <section id="filters">
+        <section  class="filters">
 
             <h1>Filters</h1>
 
             <div id="genres">
-                <label>
+                <!-- <label>
                     <input type="checkbox" name="genre" value="Action">Action
                 </label>
                 <label>
@@ -41,16 +41,13 @@
                 </label>
                 <label>
                     <input type="checkbox" name="genre" value="Crime">Crime
-                </label>
+                </label> -->
 
-                <form>
-                    <button type="button" onclick="getLoadAll();">Apply Filters</button>
-                </form>
             </div>
 
         </section>
 
-        <section>
+        <section id="search">
             <form id="search_form">
                 <p>Searched: <input type="text" name="search" placeholder="Search for ..."></p>
                 <button type="button" onclick="getLoadAll();">Search for Movie</button>

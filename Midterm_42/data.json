@@ -28,5 +28,6 @@
             "mv_rating": "PG-13",
             "description": "a description of Jumanji"
         }
-    ]
+    ],
+    "genres": ["Action", "Adventure", "Comedy", "Crime", "Family", "Fantasy", "Horror", "Thriller"]
 }

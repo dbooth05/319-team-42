@@ -2,6 +2,13 @@
     Authors: Dylan Booth & Nate Reff
 */
 
+main {
+    display: grid;
+        grid-template:
+            "filiters search"
+            "filters movie_list";
+}
+
 /* filters section */
 
 #genres {
@@ -32,6 +39,13 @@
     padding: 4px;
     display: flex;
     justify-content: space-between;
+}
+
+#cb {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 #movie_list div #data {
