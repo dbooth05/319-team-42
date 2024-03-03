@@ -1,33 +1,258 @@
 {
     "movies": [
         {
-            "title":"John Wick",
+            "title": "John Wick",
             "genres": ["Action", "Crime", "Thriller"],
             "release": "October 24, 2014",
             "mv_rating": "R",
-            "description": "a description of John Wick"
+            "review_rating": {
+                "Rotten Tomatoes": 86,
+                "IMDb": 7.4
+            },
+            "description": "John Wick is a legendary hitman who comes out of retirement to seek revenge against the men who killed his dog, a final gift from his recently deceased wife."
         },
         {
-            "title":"John Wick: Chapter 2",
+            "title": "John Wick Chapter 2",
             "genres": ["Action", "Crime", "Thriller"],
             "release": "February 10, 2017",
             "mv_rating": "R",
-            "description": "a description of John Wick: Chapter 2"
+            "review_rating": {
+                "Rotten Tomatoes": 89,
+                "IMDb": 7.5
+            },
+            "description": "Retired super-assassin John Wick's plans to resume a quiet civilian life are cut short when Italian gangster Santino D'Antonio shows up on his doorstep with a gold marker, compelling him to repay past favors."
         },
         {
             "title": "Jumanji",
-            "genres": ["Adventure", "Comedy", "Family", "Fantasy"],
+            "genres": ["Adventure", "Comedy", "Family"],
             "release": "December 15, 1995",
             "mv_rating": "PG",
-            "description": "a description of Jumanji"
+            "review_rating": {
+                "Rotten Tomatoes": 55,
+                "IMDb": 7.0
+            },
+            "description": "When two kids find and play a magical board game, they release a man trapped in it for decades - and a host of dangers that can only be stopped by finishing the game."
         },
         {
-            "title":"Jumanji: Welcome to the Jungle",
+            "title": "Jumanji: Welcome to the Jungle",
             "genres": ["Action", "Adventure", "Comedy"],
             "release": "December 20, 2017",
             "mv_rating": "PG-13",
-            "description": "a description of Jumanji"
-        }
+            "review_rating": {
+                "Rotten Tomatoes": 76,
+                "IMDb": 6.9
+            },
+            "description": "Four high-school kids discover an old video-game console and are drawn into the game's jungle setting, literally becoming the adult avatars they chose. What they discover is that you don't just play Jumanji--you must survive it."
+        },
+        {
+            "title": "The Dark Knight",
+            "genres": ["Action", "Crime", "Drama"],
+            "release": "July 18, 2008",
+            "mv_rating": "PG-13",
+            "review_rating": {
+                "Rotten Tomatoes": 94,
+                "IMDb": 9.0
+            },
+            "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+        },
+        {
+            "title": "Inception",
+            "genres": ["Action", "Adventure", "Sci-Fi"],
+            "release": "July 16, 2010",
+            "mv_rating": "PG-13",
+            "review_rating": {
+                "Rotten Tomatoes": 87,
+                "IMDb": 8.8
+            },
+            "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+        },
+        {
+            "title": "Interstellar",
+            "genres": ["Adventure", "Drama", "Sci-Fi"],
+            "release": "November 7, 2014",
+            "mv_rating": "PG-13",
+            "review_rating": {
+                "Rotten Tomatoes": 72,
+                "IMDb": 8.6
+            },
+            "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+        },
+        {
+            "title": "The Matrix",
+            "genres": ["Action", "Sci-Fi"],
+            "release": "March 31, 1999",
+            "mv_rating": "R",
+            "review_rating": {
+                "Rotten Tomatoes": 88,
+                "IMDb": 8.7
+            },
+            "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+        },
+        {
+            "title": "The Godfather",
+            "genres": ["Crime", "Drama"],
+            "release": "March 24, 1972",
+            "mv_rating": "R",
+            "review_rating": {
+                "Rotten Tomatoes": 98,
+                "IMDb": 9.2
+            },
+            "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+        },
+        {
+            "title": "Pulp Fiction",
+            "genres": ["Crime", "Drama"],
+            "release": "October 14, 1994",
+            "mv_rating": "R",
+            "review_rating": {
+                "Rotten Tomatoes": 92,
+                "IMDb": 8.9
+            },
+            "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+        },
+        {
+            "title": "Fight Club",
+            "genres": ["Drama"],
+            "release": "October 15, 1999",
+            "mv_rating": "R",
+            "review_rating": {
+                "Rotten Tomatoes": 79,
+                "IMDb": 8.8
+            },
+            "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more."
+        },
+        {
+            "title": "Forrest Gump",
+            "genres": ["Drama", "Romance"],
+            "release": "July 6, 1994",
+            "mv_rating": "PG-13",
+            "review_rating": {
+                "Rotten Tomatoes": 71,
+                "IMDb": 8.8
+            },
+            "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart."
+        },
+        {
+            "title": "The Shawshank Redemption",
+            "genres": ["Drama"],
+            "release": "September 22, 1994",
+            "mv_rating": "R",
+            "review_rating": {
+                "Rotten Tomatoes": 91,
+                "IMDb": 9.3
+            },
+            "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+        },
+        {
+            "title": "The Lion King",
+            "genres": ["Animation", "Adventure", "Drama"],
+            "release": "June 24, 1994",
+            "mv_rating": "G",
+            "review_rating": {
+                "Rotten Tomatoes": 88,
+                "IMDb": 8.5
+            },
+            "description": "A Lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and his responsibilities."
+        },
+        {
+            "title": "Titanic",
+            "genres": ["Drama", "Romance"],
+            "release": "December 19, 1997",
+            "mv_rating": "PG-13",
+            "review_rating": {
+                "Rotten Tomatoes": 89,
+                "IMDb": 7.8
+            },
+            "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+        },
+        {
+            "title": "Gladiator",
+            "genres": ["Action", "Adventure", "Drama"],
+            "release": "May 5, 2000",
+            "mv_rating": "R",
+            "review_rating": {
+                "Rotten Tomatoes": 77,
+                "IMDb": 8.5
+            },
+            "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
+        },
+        {
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "genres": ["Action", "Adventure", "Drama"],
+            "release": "December 19, 2001",
+            "mv_rating": "PG-13",
+            "review_rating": {
+                "Rotten Tomatoes": 91,
+                "IMDb": 8.8
+            },
+            "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+        },
+        {
+            "title": "Star Wars: Episode IV - A New Hope",
+            "genres": ["Action", "Adventure", "Fantasy"],
+            "release": "May 25, 1977",
+            "mv_rating": "PG",
+            "review_rating": {
+                "Rotten Tomatoes": 92,
+                "IMDb": 8.6
+            },
+            "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader."
+        },
+        {
+            "title": "Jurassic Park",
+            "genres": ["Action", "Adventure", "Sci-Fi"],
+            "release": "June 11, 1993",
+            "mv_rating": "PG-13",
+            "review_rating": {
+                "Rotten Tomatoes": 91,
+                "IMDb": 8.1
+            },
+            "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+        },
+        {
+            "title": "The Avengers",
+            "genres": ["Action", "Adventure", "Sci-Fi"],
+            "release": "May 4, 2012",
+            "mv_rating": "PG-13",
+            "review_rating": {
+                "Rotten Tomatoes": 91,
+                "IMDb": 8.0
+            },
+            "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+        },
+        {
+            "title": "Avatar",
+            "genres": ["Action", "Adventure", "Fantasy"],
+            "release": "December 18, 2009",
+            "mv_rating": "PG-13",
+            "review_rating": {
+                "Rotten Tomatoes": 82,
+                "IMDb": 7.8
+            },
+            "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+        },
+        {
+            "title": "The Incredibles",
+            "genres": ["Animation", "Action", "Adventure"],
+            "release": "November 5, 2004",
+            "mv_rating": "PG",
+            "review_rating": {
+                "Rotten Tomatoes": 97,
+                "IMDb": 8.0
+            },
+            "description": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world."
+        },
+        {
+            "title": "Toy Story",
+            "genres": ["Animation", "Adventure", "Comedy"],
+            "release": "November 22, 1995",
+            "mv_rating": "G",
+            "review_rating": {
+                "Rotten Tomatoes": 100,
+                "IMDb": 8.3
+            },
+            "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room."
+        }        
     ],
-    "genres": ["Action", "Adventure", "Comedy", "Crime", "Family", "Fantasy", "Horror", "Thriller"]
+    "genres": ["Action", "Adventure", "Animation", "Comedy", "Crime", "Drama", "Family", "Fantasy", "Romance", "Sci-Fi","Thriller"]
 }

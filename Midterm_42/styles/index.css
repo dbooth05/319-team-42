@@ -4,15 +4,25 @@
 
 main {
     display: grid;
-        grid-template:
-            "filiters search"
-            "filters movie_list";
+    grid-template-columns: 150px auto;
+    grid-template-areas:
+        "filters right"
+        "filters right";
 }
 
 /* filters section */
 
+.filters {
+    width: 150px;
+}
+
+#apply {
+    margin-top: 20px;
+}
+
 #genres {
     display: flex;
+    grid-area: filters;
     flex-direction: column;
 }
 
@@ -21,19 +31,40 @@ main {
     margin-bottom: 3px;
 }
 
+#sorting form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* right side of screen */
+#right {
+    grid-area: right;
+}
+
 /* search section */
 
-#search {
+#searchForm {
     display: flex;
+    align-items: baseline;
+    margin: 0;
+}
+
+#searchForm h1 input {
+    height: 20px;
+}
+
+#searchForm button {
+    height: 20px;
+    margin-left: 20px;
 }
 
 /* movie list section */
 
-#movie_list {
+#movieList {
     margin: 10px;
 }
 
-#movie_list div {
+#movieList div {
     border: 2px black solid;
     margin-bottom: 4px;
     padding: 4px;
@@ -48,13 +79,13 @@ main {
     cursor: pointer;
 }
 
-#movie_list div #data {
+#movieList div #data {
     padding: 2px;
     border: none;
     display: block;
     justify-content: initial;
 }
 
-#movie_list div #get_info {
+#movieList div #get_info {
     border: none;
 }

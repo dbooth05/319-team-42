@@ -11,6 +11,10 @@ function loadGenres(genres) {
         genresDiv.removeChild(genresDiv.lastElementChild);
     }
 
+    let section = document.createElement('h3');
+    section.innerHTML = `Genres`;
+    genresDiv.append(section);
+
     for (var i = 0; i < genres.genres.length; i++) {
         let genre = genres.genres[i];
         let label = document.createElement('label');
@@ -20,13 +24,6 @@ function loadGenres(genres) {
         genresDiv.append(label);
     }
 
-    let form = document.createElement("form");
-    form.innerHTML = `
-        <form>
-            <button type="button" onclick="getLoadAll();">Apply Filters</button>
-        </form>
-    `;
-    genresDiv.append(form);
 }
 
 function getFilters() {
@@ -53,11 +50,11 @@ function getLoadAll() {
 
     function loadAll(movies) {
         
-        var container = document.getElementById("movie_list");
+        var container = document.getElementById("movieList");
 
         filtered = getFilters();
         
-        let searchName = document.forms["search_form"]["search"];
+        let searchName = document.forms["searchForm"]["search"];
         let inputSearchName = searchName.value;   
             
         while (container.lastElementChild) {
@@ -68,8 +65,8 @@ function getLoadAll() {
         
             for (var i = 0; i < movies.movies.length; i++) {
                 let title = movies.movies[i].title;
-                if (title.includes(inputSearchName)) {
-                    let desc = movies.movies[0].description;
+                if (title.toLowerCase().includes(inputSearchName.toLowerCase())) {
+                    let desc = movies.movies[i].description;
                     let div = document.createElement("div");
                     div.id = 'cb';
                     div.innerHTML = `
@@ -93,8 +90,8 @@ function getLoadAll() {
 
                 if (movies.movies[i].genres.some((item) => filtered.includes(item))) {
                     let title = movies.movies[i].title;
-                    if (title.includes(inputSearchName)) {
-                        let desc = movies.movies[0].description;
+                    if (title.toLowerCase().includes(inputSearchName.toLowerCase())) {
+                        let desc = movies.movies[i].description;
                         let div = document.createElement("div");
                         div.id = 'cb';
                         div.innerHTML = `

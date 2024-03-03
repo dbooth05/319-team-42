@@ -18,7 +18,7 @@
         <!-- finish designing header - need navigation (pull from bootstrap?) -->
 
         <div id="header_title">
-            <h2>Cinematch</h2>
+            <h1>Cinematch</h1>
         </div>
         <!-- <img src="" alt=""> -->
     </header>
@@ -30,33 +30,48 @@
             <h1>Filters</h1>
 
             <div id="genres">
-                <!-- <label>
-                    <input type="checkbox" name="genre" value="Action">Action
-                </label>
-                <label>
-                    <input type="checkbox" name="genre" value="Horror">Horror
-                </label>
-                <label>
-                    <input type="checkbox" name="genre" value="Comedy">Comedy
-                </label>
-                <label>
-                    <input type="checkbox" name="genre" value="Crime">Crime
-                </label> -->
-
+                
             </div>
 
-        </section>
+            <div id="sorting">
+                <h3>Sorting</h3>
+                <form>
+                    <div>
+                        <input type="radio" id="title" name="sorting" value="title" checked>
+                        <label for="name">Title</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="oldNew" name="sorting" value="oldNew">
+                        <label for="oldNew">Oldest to Newest</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="newOld" name="sorting" value="newOld">
+                        <label for="newOld">Newest to Oldest</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="review" name="sorting" value="review">
+                        <label for="review">Review</label>
+                    </div>
+                </form>
+            </div>
 
-        <section id="search">
-            <form id="search_form">
-                <p>Searched: <input type="text" name="search" placeholder="Search for ..."></p>
-                <button type="button" onclick="getLoadAll();">Search for Movie</button>
+            <form id="apply">
+                <button type="button" onclick="getLoadAll();">Apply Filters</button>
             </form>
-        </section>
-
-        <section id="movie_list">
 
         </section>
+
+        <div id="right">
+            <section id="search">
+                <form id="searchForm">
+                    <h1>Searched: <input type="text" name="search" placeholder="Search for ..."></h1>
+                    <button type="button" onclick="getLoadAll();">Search for Movie</button>
+                </form>
+            </section>
+
+            <section id="movieList">
+            </section>
+        </div>
 
     </main>
 
