@@ -79,6 +79,7 @@ function getLoadAll() {
                     div.addEventListener('click', () => {
                         // change this to forward to page about movie
                         console.log(`button clicked ${title}`);
+                        window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`
                     });
             
                     container.append(div);
@@ -104,6 +105,7 @@ function getLoadAll() {
                         div.addEventListener('click', () => {
                             // change this to forward to page about movie
                             console.log(`button clicked ${title}`);
+                            window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`
                         });
                 
                         container.append(div);
