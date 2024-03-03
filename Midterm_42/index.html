@@ -14,7 +14,6 @@
 <body>
     
     <header>
-
         <!-- finish designing header - need navigation (pull from bootstrap?) -->
 
         <div id="header_title">
@@ -30,15 +29,19 @@
             <h1>Filters</h1>
 
             <div id="genres">
-                
+
             </div>
 
             <div id="sorting">
                 <h3>Sorting</h3>
                 <form>
                     <div>
-                        <input type="radio" id="title" name="sorting" value="title" checked>
-                        <label for="name">Title</label>
+                        <input type="radio" id="titleAZ" name="sorting" value="titleAZ" checked>
+                        <label for="titleAZ">Title A-Z</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="titleZA" name="sorting" value="titleZA">
+                        <label for="titleZA">Title Z-A</label>
                     </div>
                     <div>
                         <input type="radio" id="oldNew" name="sorting" value="oldNew">

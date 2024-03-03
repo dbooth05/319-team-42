@@ -5,7 +5,7 @@
             "genres": ["Action", "Crime", "Thriller"],
             "release": "October 24, 2014",
             "mv_rating": "R",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 86,
                 "IMDb": 7.4
             },
@@ -16,7 +16,7 @@
             "genres": ["Action", "Crime", "Thriller"],
             "release": "February 10, 2017",
             "mv_rating": "R",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 89,
                 "IMDb": 7.5
             },
@@ -27,7 +27,7 @@
             "genres": ["Adventure", "Comedy", "Family"],
             "release": "December 15, 1995",
             "mv_rating": "PG",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 55,
                 "IMDb": 7.0
             },
@@ -38,7 +38,7 @@
             "genres": ["Action", "Adventure", "Comedy"],
             "release": "December 20, 2017",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 76,
                 "IMDb": 6.9
             },
@@ -49,7 +49,7 @@
             "genres": ["Action", "Crime", "Drama"],
             "release": "July 18, 2008",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 94,
                 "IMDb": 9.0
             },
@@ -60,7 +60,7 @@
             "genres": ["Action", "Adventure", "Sci-Fi"],
             "release": "July 16, 2010",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 87,
                 "IMDb": 8.8
             },
@@ -71,7 +71,7 @@
             "genres": ["Adventure", "Drama", "Sci-Fi"],
             "release": "November 7, 2014",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 72,
                 "IMDb": 8.6
             },
@@ -82,7 +82,7 @@
             "genres": ["Action", "Sci-Fi"],
             "release": "March 31, 1999",
             "mv_rating": "R",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 88,
                 "IMDb": 8.7
             },
@@ -93,7 +93,7 @@
             "genres": ["Crime", "Drama"],
             "release": "March 24, 1972",
             "mv_rating": "R",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 98,
                 "IMDb": 9.2
             },
@@ -104,7 +104,7 @@
             "genres": ["Crime", "Drama"],
             "release": "October 14, 1994",
             "mv_rating": "R",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 92,
                 "IMDb": 8.9
             },
@@ -115,7 +115,7 @@
             "genres": ["Drama"],
             "release": "October 15, 1999",
             "mv_rating": "R",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 79,
                 "IMDb": 8.8
             },
@@ -126,7 +126,7 @@
             "genres": ["Drama", "Romance"],
             "release": "July 6, 1994",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 71,
                 "IMDb": 8.8
             },
@@ -137,7 +137,7 @@
             "genres": ["Drama"],
             "release": "September 22, 1994",
             "mv_rating": "R",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 91,
                 "IMDb": 9.3
             },
@@ -148,7 +148,7 @@
             "genres": ["Animation", "Adventure", "Drama"],
             "release": "June 24, 1994",
             "mv_rating": "G",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 88,
                 "IMDb": 8.5
             },
@@ -159,7 +159,7 @@
             "genres": ["Drama", "Romance"],
             "release": "December 19, 1997",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 89,
                 "IMDb": 7.8
             },
@@ -170,7 +170,7 @@
             "genres": ["Action", "Adventure", "Drama"],
             "release": "May 5, 2000",
             "mv_rating": "R",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 77,
                 "IMDb": 8.5
             },
@@ -181,7 +181,7 @@
             "genres": ["Action", "Adventure", "Drama"],
             "release": "December 19, 2001",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 91,
                 "IMDb": 8.8
             },
@@ -192,7 +192,7 @@
             "genres": ["Action", "Adventure", "Fantasy"],
             "release": "May 25, 1977",
             "mv_rating": "PG",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 92,
                 "IMDb": 8.6
             },
@@ -203,7 +203,7 @@
             "genres": ["Action", "Adventure", "Sci-Fi"],
             "release": "June 11, 1993",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 91,
                 "IMDb": 8.1
             },
@@ -214,7 +214,7 @@
             "genres": ["Action", "Adventure", "Sci-Fi"],
             "release": "May 4, 2012",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 91,
                 "IMDb": 8.0
             },
@@ -225,7 +225,7 @@
             "genres": ["Action", "Adventure", "Fantasy"],
             "release": "December 18, 2009",
             "mv_rating": "PG-13",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 82,
                 "IMDb": 7.8
             },
@@ -236,7 +236,7 @@
             "genres": ["Animation", "Action", "Adventure"],
             "release": "November 5, 2004",
             "mv_rating": "PG",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 97,
                 "IMDb": 8.0
             },
@@ -247,7 +247,7 @@
             "genres": ["Animation", "Adventure", "Comedy"],
             "release": "November 22, 1995",
             "mv_rating": "G",
-            "review_rating": {
+            "reviewRating": {
                 "Rotten Tomatoes": 100,
                 "IMDb": 8.3
             },

@@ -42,6 +42,34 @@ function getFilters() {
     return filteredList;
 }
 
+function sortMovies(movies) {
+
+    let options = document.getElementsByName('sorting');
+    
+    var checked;
+
+    for (var i = 0; i < options.length; i++) {
+        if (options[i].checked) {
+            checked = options[i].value;
+            break;
+        }
+    }
+
+    if (checked == "titleAZ") {
+        movies.movies.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (checked == "titleZA") {
+        movies.movies.sort((a, b) => b.title.localeCompare(a.title));
+    } else if (checked == "oldNew") {
+        movies.movies.sort((a, b) => new Date(a.release) - new Date(b.release));
+    } else if (checked == "newOld") {
+        movies.movies.sort((a, b) => new Date(b.release) - new Date(a.release));
+    } else if (checked == "review") {
+        movies.movies.sort((a, b) => b.reviewRating["Rotten Tomatoes"] - a.reviewRating["Rotten Tomatoes"]);
+    }
+    console.log(movies.movies)
+
+}
+
 function getLoadAll() {
 
     fetch("./data.json")
@@ -51,6 +79,8 @@ function getLoadAll() {
     function loadAll(movies) {
         
         var container = document.getElementById("movieList");
+
+        sortMovies(movies);
 
         filtered = getFilters();
         
