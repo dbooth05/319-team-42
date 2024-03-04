@@ -63,10 +63,11 @@ function sortMovies(movies) {
         movies.movies.sort((a, b) => new Date(a.release) - new Date(b.release));
     } else if (checked == "newOld") {
         movies.movies.sort((a, b) => new Date(b.release) - new Date(a.release));
-    } else if (checked == "review") {
+    } else if (checked == "reviewHL") {
         movies.movies.sort((a, b) => b.reviewRating["Rotten Tomatoes"] - a.reviewRating["Rotten Tomatoes"]);
+    } else if (checked == "reviewLH") {
+        movies.movies.sort((a, b) => a.reviewRating["Rotten Tomatoes"] - b.reviewRating["Rotten Tomatoes"]);
     }
-    console.log(movies.movies)
 
 }
 
