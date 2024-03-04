@@ -163,7 +163,8 @@
                 "Rotten Tomatoes": 89,
                 "IMDb": 7.8
             },
-            "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+            "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/zv8lstqd/titanic-movie-poster-xs.jpg?v=1704644889"
         },
         {
             "title": "Gladiator",
@@ -174,7 +175,8 @@
                 "Rotten Tomatoes": 77,
                 "IMDb": 8.5
             },
-            "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
+            "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/eoqdxh0o/gladiator-movie-poster-xs.jpg?v=1456289024"
         },
         {
             "title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -185,7 +187,8 @@
                 "Rotten Tomatoes": 91,
                 "IMDb": 8.8
             },
-            "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+            "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/wxujkcbm/the-lo…ship-of-the-ring-movie-poster-xs.jpg?v=1594555579"
         },
         {
             "title": "Star Wars: Episode IV - A New Hope",
@@ -196,7 +199,8 @@
                 "Rotten Tomatoes": 92,
                 "IMDb": 8.6
             },
-            "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader."
+            "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+            "imgURL" : ""
         },
         {
             "title": "Jurassic Park",
@@ -207,7 +211,8 @@
                 "Rotten Tomatoes": 91,
                 "IMDb": 8.1
             },
-            "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+            "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/4ubyv2go/jurassic-park-movie-poster-xs.jpg?v=1456328203"
         },
         {
             "title": "The Avengers",
@@ -218,7 +223,8 @@
                 "Rotten Tomatoes": 91,
                 "IMDb": 8.0
             },
-            "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+            "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/tx5395zb/the-avengers-movie-poster-xs.jpg?v=1456637007"
         },
         {
             "title": "Avatar",
@@ -229,7 +235,8 @@
                 "Rotten Tomatoes": 82,
                 "IMDb": 7.8
             },
-            "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+            "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/yonz5gr7/avatar-theatrical-movie-poster-xs.jpg?v=1456799710"
         },
         {
             "title": "The Incredibles",
@@ -240,7 +247,8 @@
                 "Rotten Tomatoes": 97,
                 "IMDb": 8.0
             },
-            "description": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world."
+            "description": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/zjwgvcd4/the-incredibles-movie-poster-xs.jpg?v=1615936903"
         },
         {
             "title": "Toy Story",
@@ -251,7 +259,8 @@
                 "Rotten Tomatoes": 100,
                 "IMDb": 8.3
             },
-            "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room."
+            "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+            "imgURL" : 	"https://cdn.cinematerial.com/p/60x/lxbemgwq/toy-story-movie-poster-xs.jpg?v=1456076617"
         }        
     ],
     "genres": ["Action", "Adventure", "Animation", "Comedy", "Crime", "Drama", "Family", "Fantasy", "Romance", "Sci-Fi","Thriller"]
