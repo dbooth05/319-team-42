@@ -1,29 +1,36 @@
+// window.onresize(getLoadGenres(), getLoadAll());
+window.addEventListener('resize', getLoadGenres);
+window.addEventListener('resize', getLoadAll);
+
 getLoadAll();
+getLoadGenres();
 
-fetch("./data.json")
-.then(response => response.json())
-.then(genres => loadGenres(genres));
+function getLoadGenres() {
+    fetch("./data.json")
+    .then(response => response.json())
+    .then(genres => loadGenres(genres));
 
-function loadGenres(genres) {
-    let genresDiv = document.getElementById("genres");
+    function loadGenres(genres) {
+        let genresDiv = document.getElementById("genres");
 
-    while (genresDiv.lastElementChild) {
-        genresDiv.removeChild(genresDiv.lastElementChild);
+        while (genresDiv.lastElementChild) {
+            genresDiv.removeChild(genresDiv.lastElementChild);
+        }
+
+        let section = document.createElement('h3');
+        section.innerHTML = `Genres`;
+        genresDiv.append(section);
+
+        for (var i = 0; i < genres.genres.length; i++) {
+            let genre = genres.genres[i];
+            let label = document.createElement('label');
+            label.innerHTML = `
+                <input type="checkbox" name="genre" value="${genre}">${genre}
+            `;
+            genresDiv.append(label);
+        }
+
     }
-
-    let section = document.createElement('h3');
-    section.innerHTML = `Genres`;
-    genresDiv.append(section);
-
-    for (var i = 0; i < genres.genres.length; i++) {
-        let genre = genres.genres[i];
-        let label = document.createElement('label');
-        label.innerHTML = `
-            <input type="checkbox" name="genre" value="${genre}">${genre}
-        `;
-        genresDiv.append(label);
-    }
-
 }
 
 function getFilters() {
