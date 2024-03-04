@@ -94,27 +94,33 @@ function getLoadAll() {
 
         if (filtered.length <= 0) {
         
-            for (var i = 0; i < movies.movies.length; i++) {
-                let title = movies.movies[i].title;
-                if (title.toLowerCase().includes(inputSearchName.toLowerCase())) {
-                    let desc = movies.movies[i].description;
-                    let div = document.createElement("div");
-                    div.id = 'cb';
-                    div.innerHTML = `
-                    <div id="data">
-                        <h3>${title}<\h3><br>
-                        <p>${desc}<\p>
-                    </div>
-                    `;
-
-                    div.addEventListener('click', () => {
-                        // change this to forward to page about movie
-                        console.log(`button clicked ${title}`);
-                        window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`
-                    });
-            
-                    container.append(div);
+            var i = 0;
+            while (i < movies.movies.length) {
+                let div = document.createElement('div');
+                div.id = 'row';
+                var lim = i + 3;
+                for (var j = i; j < lim && j < movies.movies.length; j++) {
+                    let title = movies.movies[j].title;
+                    if (title.toLowerCase().includes(inputSearchName.toLowerCase())) {
+                        let desc = movies.movies[j].description;
+                        let innerdiv = document.createElement('div');
+                        innerdiv.id = 'cb';
+                        innerdiv.innerHTML = `
+                            <div id="data">
+                                <h3>${title}<\h3><br>
+                                <p>${desc}<\p>
+                        `;
+    
+                        innerdiv.addEventListener('click', () => {
+                            console.log(`button clicked ${title}`);
+                            window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`;
+                        });
+    
+                        div.append(innerdiv)
+                        i++;
+                    }
                 }
+                container.append(div);
             }
     
         } else {
