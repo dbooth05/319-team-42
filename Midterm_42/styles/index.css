@@ -64,18 +64,19 @@ main {
     margin: 10px;
 }
 
-#movieList div {
+#movieList #row {
+    margin-bottom: 4px;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+}
+
+#movieList #row #cb {
     border: 2px black solid;
     margin-bottom: 4px;
     padding: 4px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#cb {
-    display: inline-block;
-    padding: 10px 20px;
-    border: none;
+    margin: 4px;
     cursor: pointer;
 }
 

@@ -98,11 +98,11 @@ function getLoadAll() {
             while (i < movies.movies.length) {
                 let div = document.createElement('div');
                 div.id = 'row';
-                var lim = i + 3;
-                for (var j = i; j < lim && j < movies.movies.length; j++) {
-                    let title = movies.movies[j].title;
+                let cnt = 0;
+                while (cnt < 3 && i < movies.movies.length) {
+                    let title = movies.movies[i].title;
                     if (title.toLowerCase().includes(inputSearchName.toLowerCase())) {
-                        let desc = movies.movies[j].description;
+                        let desc = movies.movies[i].description;
                         let innerdiv = document.createElement('div');
                         innerdiv.id = 'cb';
                         innerdiv.innerHTML = `
@@ -116,39 +116,44 @@ function getLoadAll() {
                             window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`;
                         });
     
-                        div.append(innerdiv)
-                        i++;
+                        div.append(innerdiv);
+                        cnt++;
                     }
+                    i++;
                 }
                 container.append(div);
             }
     
         } else {
-            for (var i = 0; i < movies.movies.length; i++) {
-
-                if (movies.movies[i].genres.some((item) => filtered.includes(item))) {
+            var i = 0;
+            while (i < movies.movies.length) {
+                let div = document.createElement('row');
+                div.id = 'row';
+                let cnt = 0;
+                while (cnt < 3 && i < movies.movies.length) {
                     let title = movies.movies[i].title;
-                    if (title.toLowerCase().includes(inputSearchName.toLowerCase())) {
-                        let desc = movies.movies[i].description;
-                        let div = document.createElement("div");
-                        div.id = 'cb';
-                        div.innerHTML = `
-                        <div id="data">
-                            <h3>${title}<\h3><br>
-                            <p>${desc}<\p>
-                        </div>
-                        `;
-    
-                        div.addEventListener('click', () => {
-                            // change this to forward to page about movie
-                            console.log(`button clicked ${title}`);
-                            window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`
-                        });
-                
-                        container.append(div);
+                    if (movies.movies[i].genres.some((item) => filtered.includes(item)) && 
+                        title.toLowerCase().includes(inputSearchName.toLowerCase())) {
+                            let desc = movies.movies[i].description;
+                            let innerdiv = document.createElement('div');
+                            innerdiv.id = 'cb';
+                            innerdiv.innerHTML = `
+                                <div id="data">
+                                    <h3>${title}<\h3><br>
+                                    <p>${desc}<\p>
+                            `;
+        
+                            innerdiv.addEventListener('click', () => {
+                                console.log(`button clicked ${title}`);
+                                window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`;
+                            });
+        
+                            div.append(innerdiv);
+                            cnt++;
                     }
+                    i++;
                 }
-
+                container.append(div);
             }
         }
     
