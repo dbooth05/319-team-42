@@ -37,8 +37,6 @@ function getFilters() {
         }
     });
 
-    console.log(filteredList);
-
     return filteredList;
 }
 
@@ -87,6 +85,9 @@ function getLoadAll() {
         
         let searchName = document.forms["searchForm"]["search"];
         let inputSearchName = searchName.value;   
+
+        let numCols = (window.innerWidth > 1000 ? 3 : 2);
+        console.log(window.innerWidth);
             
         while (container.lastElementChild) {
             container.removeChild(container.lastElementChild);
@@ -99,16 +100,19 @@ function getLoadAll() {
                 let div = document.createElement('div');
                 div.id = 'row';
                 let cnt = 0;
-                while (cnt < 3 && i < movies.movies.length) {
+                while (cnt < numCols && i < movies.movies.length) {
                     let title = movies.movies[i].title;
                     if (title.toLowerCase().includes(inputSearchName.toLowerCase())) {
                         let desc = movies.movies[i].description;
+                        let imgURL = movies.movies[i].imgURL;
                         let innerdiv = document.createElement('div');
                         innerdiv.id = 'cb';
                         innerdiv.innerHTML = `
+                            <img src="${imgURL}" alt="Cover image for movie" width="125px" height="175px">
                             <div id="data">
                                 <h3>${title}<\h3><br>
                                 <p>${desc}<\p>
+                            <\div>
                         `;
     
                         innerdiv.addEventListener('click', () => {
@@ -130,17 +134,20 @@ function getLoadAll() {
                 let div = document.createElement('row');
                 div.id = 'row';
                 let cnt = 0;
-                while (cnt < 3 && i < movies.movies.length) {
+                while (cnt < numCols && i < movies.movies.length) {
                     let title = movies.movies[i].title;
                     if (movies.movies[i].genres.some((item) => filtered.includes(item)) && 
                         title.toLowerCase().includes(inputSearchName.toLowerCase())) {
                             let desc = movies.movies[i].description;
+                            let imgURL = movies.movies[i].imgURL;
                             let innerdiv = document.createElement('div');
                             innerdiv.id = 'cb';
                             innerdiv.innerHTML = `
+                                <img src="${imgURL}" alt="Cover image for movie" width="125px" height="175px">
                                 <div id="data">
                                     <h3>${title}<\h3><br>
                                     <p>${desc}<\p>
+                                <\div>
                             `;
         
                             innerdiv.addEventListener('click', () => {
