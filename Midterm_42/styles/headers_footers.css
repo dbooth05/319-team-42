@@ -35,3 +35,17 @@ body {
 .authors:active, .main:active {
     transform: translateY(1px); /* Push the button down slightly when clicked */
 }
+
+/* footer */
+footer {
+    background-color: #6b0b0b;
+    height: 80px;
+    display: flex;
+    justify-content: center;  
+    padding-top: 20px;  
+}
+
+footer p {
+    color: white;
+    font-size: large;
+}

@@ -4,7 +4,7 @@
 
 main {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 200px auto;
     grid-template-areas:
         "filters right"
         "filters right";
@@ -15,8 +15,9 @@ body {
 }
 /* filters section */
 
-.filters {
-    width: 150px;
+#filters {
+    margin: 10px;
+    padding: 10px;
 }
 
 #apply {
@@ -49,7 +50,8 @@ body {
 #searchForm {
     display: flex;
     align-items: baseline;
-    margin: 0;
+    margin: 10px;
+    padding-left: 4px;
 }
 
 #searchForm h1 input {
@@ -77,9 +79,11 @@ body {
 
 #cb {
     border: 2px black solid;
-    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: whitesmoke;
     margin: 10px;
-    padding: 4px;
+    /* padding: 4px; */
     width: 250px;
     cursor: pointer;
     transition: transform ease 0.5s, box-shadow ease 0.5s;
