@@ -1,8 +1,16 @@
 header {
-    /* background-image: linear-gradient(90deg, black, white); */
-    height: 90px;
+    background-color: gray;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 body {
     background-color: lightgray;
+}
+
+.authors, .main {
+    padding: 10px;
 }
