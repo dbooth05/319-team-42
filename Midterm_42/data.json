@@ -193,18 +193,6 @@
             "imgURL" : "https://cdn.cinematerial.com/p/60x/wxujkcbm/the-lord-of-the-rings-the-fellowship-of-the-ring-movie-poster-xs.jpg?v=1594555579"
         },
         {
-            "title": "Star Wars: Episode IV - A New Hope",
-            "genres": ["Action", "Adventure", "Fantasy"],
-            "release": "May 25, 1977",
-            "mv_rating": "PG",
-            "reviewRating": {
-                "Rotten Tomatoes": 92,
-                "IMDb": 8.6
-            },
-            "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
-            "imgURL" : ""
-        },
-        {
             "title": "Jurassic Park",
             "genres": ["Action", "Adventure", "Sci-Fi"],
             "release": "June 11, 1993",
