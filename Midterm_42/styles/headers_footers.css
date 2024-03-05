@@ -1,5 +1,5 @@
 header {
-    background-color: gray;
+    background-color: #6b0b0b;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -12,5 +12,21 @@ body {
 }
 
 .authors, .main {
-    padding: 10px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+    margin-left: 10px; /* Adjust spacing between buttons */
+}
+
+/* Hover effect */
+.authors:hover, .main:hover {
+    background-color: #0056b3; /* Darker shade of button color */
+}
+
+/* Active effect */
+.authors:active, .main:active {
+    transform: translateY(1px); /* Push the button down slightly when clicked */
 }
