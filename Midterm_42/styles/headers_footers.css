@@ -61,4 +61,16 @@ footer p {
     text-decoration: none; /* Remove underline from links */
     color: #fff; /* Text color */
     text-align: left;
+    transition: background-color ease 0.5s;
+}
+
+/* Hover effect */
+.back-button:hover {
+    background-color: #f50d0d; /* Darker shade of button color */
+    cursor: pointer;
+}
+
+/* Active effect */
+.back-button:active {
+    transform: translateY(1px); /* Push the button down slightly when clicked */
 }
