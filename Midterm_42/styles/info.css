@@ -1,3 +1,6 @@
-/* 
-    Authors: Dylan Booth & Nate Reff
-*/
+main {
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    height: auto;
+}

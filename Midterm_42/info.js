@@ -27,6 +27,10 @@ function loadInfo(movie) {
             let imageURL = movie.movies[i].imgURL;
             let imgElement = document.createElement('img');
             imgElement.src = imageURL;
+
+            imgElement.style.width = '600px';
+            imgElement.style.height = '960px';
+
             imgElement.classList.add('movie-image'); // Add a class for styling
             document.querySelector('main').appendChild(imgElement);
 
