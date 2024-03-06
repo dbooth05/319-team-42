@@ -28,8 +28,8 @@ function loadInfo(movie) {
             let imgElement = document.createElement('img');
             imgElement.src = imageURL;
 
-            imgElement.style.width = '600px';
-            imgElement.style.height = '960px';
+            imgElement.style.width = '480px';
+            imgElement.style.height = '768px';
 
             imgElement.classList.add('movie-image'); // Add a class for styling
             document.getElementById('left').appendChild(imgElement);
@@ -48,7 +48,7 @@ function loadInfo(movie) {
             let genresContainer = document.createElement("div");
             genresContainer.id = "genres";
             let genreElement = document.createElement("h3");
-            genreElement.textContent = "Genres";
+            genreElement.textContent = "Genres: ";
             genresContainer.appendChild(genreElement);
 
             let genresList = document.createElement("ul");
@@ -64,27 +64,30 @@ function loadInfo(movie) {
             let releaseDate = movie.movies[i].release;
             let releaseDateContainer = document.createElement("div");
             releaseDateContainer.id = "releaseDate";
-            let releaseDateElement = document.createElement("p");
-            releaseDateElement.textContent = "Release Date: " + releaseDate;
-            releaseDateContainer.appendChild(releaseDateElement);
+            releaseDateContainer.innerHTML = `
+                <h3>Release Date:</h3>
+                <p> ${releaseDate}</p>
+            `;
             document.getElementById('right').appendChild(releaseDateContainer);
 
             //movie rating
             let mvRating = movie.movies[i].mv_rating;
             let mvRatingContainer = document.createElement("div");
             mvRatingContainer.id = "mvRating";
-            let mvRatingElement = document.createElement("p");
-            mvRatingElement.textContent = "movie rating: "+mvRating;
-            mvRatingContainer.appendChild(mvRatingElement);
+            mvRatingContainer.innerHTML = `
+                <h3>Movie Rating:</h3>
+                <p>${mvRating}</p>
+            `;
             document.getElementById('right').appendChild(mvRatingContainer);
 
             //Description
             let desc = movie.movies[i].description;
             let descContainer = document.createElement("div");
             descContainer.id = "description";
-            let descElement = document.createElement("p");
-            descElement.textContent = "description: " + desc;
-            descContainer.appendChild(descElement);
+            descContainer.innerHTML = `
+                <h3>Description:</h3>
+                <p>${desc}</p>
+            `;
             document.getElementById('right').appendChild(descContainer);
 
             //Review Ratings
@@ -94,22 +97,13 @@ function loadInfo(movie) {
             let reviewRatingsContainer = document.createElement("div");
             reviewRatingsContainer.id = "reviewRatings";
 
-            // Create and append header for review ratings
-            let reviewRatingsElement = document.createElement("h2");
-            reviewRatingsElement.textContent = "Review Ratings";
-            reviewRatingsContainer.appendChild(reviewRatingsElement);
-
-            // Create and append Rotten Tomatoes rating
-            let rottenTomatoesElement = document.createElement("p");
-            rottenTomatoesElement.textContent = "Rotten Tomatoes: " + reviewRatings["Rotten Tomatoes"];
-            reviewRatingsContainer.appendChild(rottenTomatoesElement);
-
-            // Create and append IMDb rating
-            let imdbRatingElement = document.createElement("p");
-            imdbRatingElement.textContent = "IMDb: " + reviewRatings["IMDb"];
-            reviewRatingsContainer.appendChild(imdbRatingElement);
-
             document.getElementById('right').appendChild(reviewRatingsContainer);
+
+            reviewRatingsContainer.innerHTML = `
+                <h3>Review Ratings:</h3>
+                <p>Rotten Tomatoes: ${reviewRatings["Rotten Tomatoes"]}</p>
+                <p>IMDb: ${reviewRatings["IMDb"]}</p>
+            `;
         }
         
 
