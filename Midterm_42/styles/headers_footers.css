@@ -16,6 +16,7 @@ body {
 .logo {
     flex-grow: 1;
     text-align: center;
+    margin-left: 100px;
 }
 .authors, .main {
     padding: 12px 24px; /* Adjust padding as needed */
