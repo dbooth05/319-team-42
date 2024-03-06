@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    background-color: #9c9999;
+    background-color: whitesmoke;
 }
 
 .logo {
@@ -48,4 +48,15 @@ footer {
 footer p {
     color: white;
     font-size: large;
+}
+
+.back-button {
+    position: absolute; /* or fixed */
+    padding: 12px 24px; /* Adjust padding as needed */
+    background-color: #aa0014; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+    text-align: left;
 }

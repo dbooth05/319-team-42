@@ -91,50 +91,82 @@ function getLoadAll() {
         filtered = getFilters();
         
         let searchName = document.forms["searchForm"]["search"];
-        let inputSearchName = searchName.value;  
+        let inputSearchName = searchName.value;   
+
+        let numCols = (window.innerWidth > 1000 ? 3 : 2);
+        console.log(window.innerWidth);
             
         while (container.lastElementChild) {
             container.removeChild(container.lastElementChild);
         }
 
         if (filtered.length <= 0) {
-            for (var i = 0; i < movies.movies.length; i++) {
-                let title = movies.movies[i].title;
-                if (title.toLowerCase().includes(inputSearchName.toLowerCase())) {
+        
+            var i = 0;
+            while (i < movies.movies.length) {
+                let div = document.createElement('div');
+                div.id = 'row';
+                let cnt = 0;
+                while (cnt < numCols && i < movies.movies.length) {
+                    let title = movies.movies[i].title;
+                    if (title.toLowerCase().includes(inputSearchName.toLowerCase())) {
+                        let desc = movies.movies[i].description;
                         let imgURL = movies.movies[i].imgURL;
-                        let div = document.createElement('div');
-                        div.id = 'cb';
-                        div.innerHTML = `
-                            <img src="${imgURL}" alt="Cover image for movie" width="250px", height="400px">
-                            <h3>${title}<\h3>
+                        let innerdiv = document.createElement('div');
+                        innerdiv.id = 'cb';
+                        innerdiv.innerHTML = `
+                            <img src="${imgURL}" alt="Cover image for movie" width="125px" height="175px">
+                            <div id="data">
+                                <h3>${title}<\h3><br>
+                            <\div>
                         `;
     
-                        div.addEventListener('click', () => {
+                        innerdiv.addEventListener('click', () => {
                             console.log(`button clicked ${title}`);
                             window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`;
                         });
-                        container.append(div);
+    
+                        div.append(innerdiv);
+                        cnt++;
+                    }
+                    i++;
                 }
+                container.append(div);
             }
-        } else if (filtered.length == 1) {
-            for (var i = 0; i < movies.movies.length; i++) {
-                let title = movies.movies[i].title;
-                if (movies.movies[i].genres.some((item) => filtered.includes(item)) && 
-                    title.toLowerCase().includes(inputSearchName.toLowerCase())) {
-                        let imgURL = movies.movies[i].imgURL;
-                        let div = document.createElement('div');
-                        div.id = 'cb';
-                        div.innerHTML = `
-                            <img src="${imgURL}" alt="Cover image for movie" width="250px", height="400px">
-                            <h3>${title}<\h3>
-                        `;
     
-                        div.addEventListener('click', () => {
-                            console.log(`button clicked ${title}`);
-                            window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`;
-                        });
-                        container.append(div);
+        } else {
+            var i = 0;
+            while (i < movies.movies.length) {
+                let div = document.createElement('row');
+                div.id = 'row';
+                let cnt = 0;
+                while (cnt < numCols && i < movies.movies.length) {
+                    let title = movies.movies[i].title;
+                    if (movies.movies[i].genres.some((item) => filtered.includes(item)) && 
+                        title.toLowerCase().includes(inputSearchName.toLowerCase())) {
+                            let desc = movies.movies[i].description;
+                            let imgURL = movies.movies[i].imgURL;
+                            let innerdiv = document.createElement('div');
+                            innerdiv.id = 'cb';
+                            innerdiv.innerHTML = `
+                                <img src="${imgURL}" alt="Cover image for movie" width="125px" height="175px">
+                                <div id="data">
+                                    <h3>${title}<\h3><br>
+                                    <p>${desc}<\p>
+                                <\div>
+                            `;
+        
+                            innerdiv.addEventListener('click', () => {
+                                console.log(`button clicked ${title}`);
+                                window.location.href = `info.html?movie=${title.replaceAll(' ', '')}`;
+                            });
+        
+                            div.append(innerdiv);
+                            cnt++;
+                    }
+                    i++;
                 }
+                container.append(div);
             }
         }
     
