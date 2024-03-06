@@ -129,7 +129,7 @@ function getLoadAll() {
                         let div = document.createElement('div');
                         div.id = 'cb';
                         div.innerHTML = `
-                            <img src="${imgURL}" alt="Cover image for movie" width="125px" height="175px">
+                            <img src="${imgURL}" alt="Cover image for movie" width="250px" height="400px">
                             <h3>${title}<\h3><br>
                         `;
 
