@@ -32,7 +32,7 @@ function loadInfo(movie) {
             imgElement.style.height = '960px';
 
             imgElement.classList.add('movie-image'); // Add a class for styling
-            //document.querySelector('main').appendChild(imgElement);
+            document.getElementById('left').appendChild(imgElement);
 
             //movie genres
             let genres = movie.movies[i].genres;
@@ -49,6 +49,7 @@ function loadInfo(movie) {
                 genresList.appendChild(listItem);
             });
             genresContainer.appendChild(genresList);
+            document.getElementById('right').appendChild(genreElement);
 
             //title
             let movieTitle = movie.movies[i].title;
