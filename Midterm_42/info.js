@@ -25,14 +25,14 @@ function loadInfo(movie) {
 
             //movie images
             let imageURL = movie.movies[i].imgURL;
+            let imageContainer = document.createElement("div");
+            imageContainer.id = "image";
             let imgElement = document.createElement('img');
             imgElement.src = imageURL;
 
-            imgElement.style.width = '480px';
-            imgElement.style.height = '768px';
-
+            imageContainer.appendChild(imgElement)
             imgElement.classList.add('movie-image'); // Add a class for styling
-            document.getElementById('left').appendChild(imgElement);
+            document.getElementById('left').appendChild(imageContainer);
 
             //title
             let movieTitle = movie.movies[i].title;

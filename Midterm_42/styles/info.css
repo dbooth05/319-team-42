@@ -16,6 +16,8 @@ main {
 
 #left img {
     border-radius: 20px;
+    width: 480px;
+    height: 768px;
 }
 
 
