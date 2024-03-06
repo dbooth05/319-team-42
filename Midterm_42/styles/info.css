@@ -4,3 +4,10 @@ main {
     padding: 20px;
     height: auto;
 }
+
+#movieTitle {
+    text-align: center; /* Center text horizontally */
+    margin-top: 0; /* Remove default top margin */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+

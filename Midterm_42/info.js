@@ -32,15 +32,15 @@ function loadInfo(movie) {
             imgElement.style.height = '960px';
 
             imgElement.classList.add('movie-image'); // Add a class for styling
-            document.querySelector('main').appendChild(imgElement);
+            //document.querySelector('main').appendChild(imgElement);
 
             //movie genres
             let genres = movie.movies[i].genres;
             let genresContainer = document.getElementById("genres");
             genresContainer.innerHTML = "";
-            let movieElement = document.createElement("h3");
-            movieElement.textContent = "Genres";
-            genresContainer.appendChild(movieElement);
+            let genreElement = document.createElement("h3");
+            genreElement.textContent = "Genres";
+            genresContainer.appendChild(genreElement);
 
             let genresList = document.createElement("ul");
             genres.forEach(genre => {
@@ -56,6 +56,7 @@ function loadInfo(movie) {
             let titleElement = document.createElement("h1");
             titleElement.textContent = movieTitle;
             titleContainer.appendChild(titleElement);
+            // document.querySelector('main').appendChild(titleElement);
 
             // //Release 
             let releaseDate = movie.movies[i].release;
