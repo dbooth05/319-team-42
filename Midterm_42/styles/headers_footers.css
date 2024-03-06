@@ -10,6 +10,7 @@ header {
 
 body {
     background-color: #9c9999;
+    margin: 0;
 }
 
 .logo {
@@ -24,6 +25,7 @@ body {
     text-decoration: none; /* Remove underline from links */
     color: #fff; /* Text color */
     margin-left: 10px; /* Adjust spacing between buttons */
+    transition: background-color ease 0.5s;
 }
 
 /* Hover effect */
