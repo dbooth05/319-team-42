@@ -5,19 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Name</title>
 
-    <link rel="stylesheet" ref="./styles/headers_footers">
+    <link rel="stylesheet" href="./styles/headers_footers.css">
 
     <script src="info.js"></script>
 </head>
 <body>
 
     <header>
-        <!-- finish designing header - need navigation (pull from bootstrap?) -->
-
-        <div id="header_title">
-            <h1>Cinematch</h1>
+        <div class="logo">
+            <img src="./images/Cinematch.png" alt="cinematchLogo" height="80px">
         </div>
-        <!-- <img src="" alt=""> -->
+        <div class="tabs">
+            <a href="./authors.html" class="authors"> Authors</a>
+            <a href="./index.html" class="main"> Main</a>
+        </div>
+        <button class="back-button" onclick="goBack()">Go Back</button>
+        <script>
+            function goBack() {
+                window.history.back();  
+            }
+        </script>
+
     </header>
     
     <main>
