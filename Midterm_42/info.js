@@ -34,10 +34,19 @@ function loadInfo(movie) {
             imgElement.classList.add('movie-image'); // Add a class for styling
             document.getElementById('left').appendChild(imgElement);
 
+            //title
+            let movieTitle = movie.movies[i].title;
+            let titleContainer = document.createElement("div");
+            titleContainer.id = "title"
+            let titleElement = document.createElement("h1");
+            titleElement.textContent = movieTitle;
+            titleContainer.appendChild(titleElement);
+            document.getElementById('right').appendChild(titleContainer);
+
             //movie genres
             let genres = movie.movies[i].genres;
-            let genresContainer = document.getElementById("genres");
-            genresContainer.innerHTML = "";
+            let genresContainer = document.createElement("div");
+            genresContainer.id = "genres";
             let genreElement = document.createElement("h3");
             genreElement.textContent = "Genres";
             genresContainer.appendChild(genreElement);
@@ -49,43 +58,41 @@ function loadInfo(movie) {
                 genresList.appendChild(listItem);
             });
             genresContainer.appendChild(genresList);
-            document.getElementById('right').appendChild(genreElement);
-
-            //title
-            let movieTitle = movie.movies[i].title;
-            let titleContainer = document.getElementById("movieTitle");
-            let titleElement = document.createElement("h1");
-            titleElement.textContent = movieTitle;
-            titleContainer.appendChild(titleElement);
-            // document.querySelector('main').appendChild(titleElement);
+            document.getElementById('right').appendChild(genresContainer);
 
             // //Release 
             let releaseDate = movie.movies[i].release;
-            let releaseDateContainer = document.getElementById("releaseDate");
+            let releaseDateContainer = document.createElement("div");
+            releaseDateContainer.id = "releaseDate";
             let releaseDateElement = document.createElement("p");
-            releaseDateElement.textContent = releaseDate;
+            releaseDateElement.textContent = "Release Date: " + releaseDate;
             releaseDateContainer.appendChild(releaseDateElement);
+            document.getElementById('right').appendChild(releaseDateContainer);
 
             //movie rating
             let mvRating = movie.movies[i].mv_rating;
-            let mvRatingContainer = document.getElementById("mvRating");
+            let mvRatingContainer = document.createElement("div");
+            mvRatingContainer.id = "mvRating";
             let mvRatingElement = document.createElement("p");
-            mvRatingElement.textContent = mvRating;
+            mvRatingElement.textContent = "movie rating: "+mvRating;
             mvRatingContainer.appendChild(mvRatingElement);
+            document.getElementById('right').appendChild(mvRatingContainer);
 
             //Description
             let desc = movie.movies[i].description;
-            let descContainer = document.getElementById("desc");
+            let descContainer = document.createElement("div");
+            descContainer.id = "description";
             let descElement = document.createElement("p");
-            descElement.textContent = desc;
+            descElement.textContent = "description: " + desc;
             descContainer.appendChild(descElement);
+            document.getElementById('right').appendChild(descContainer);
 
             //Review Ratings
             let reviewRatings = movie.movies[i].reviewRating;
 
             // Clear any existing content in the review ratings container
-            let reviewRatingsContainer = document.getElementById("review-ratings");
-            reviewRatingsContainer.innerHTML = "";
+            let reviewRatingsContainer = document.createElement("div");
+            reviewRatingsContainer.id = "reviewRatings";
 
             // Create and append header for review ratings
             let reviewRatingsElement = document.createElement("h2");
@@ -101,6 +108,8 @@ function loadInfo(movie) {
             let imdbRatingElement = document.createElement("p");
             imdbRatingElement.textContent = "IMDb: " + reviewRatings["IMDb"];
             reviewRatingsContainer.appendChild(imdbRatingElement);
+
+            document.getElementById('right').appendChild(reviewRatingsContainer);
         }
         
 
