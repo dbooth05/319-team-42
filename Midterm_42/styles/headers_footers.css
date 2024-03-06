@@ -42,15 +42,21 @@ body {
 /* footer */
 footer {
     background-color: #6b0b0b;
-    height: 80px;
+    height: 120px;
     display: flex;
-    justify-content: center;  
+    flex-direction: column;
+    align-items: center;
     padding-top: 20px;  
 }
 
 footer p {
     color: white;
     font-size: large;
+}
+
+footer p a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .back-button {

@@ -92,9 +92,6 @@ function getLoadAll() {
         
         let searchName = document.forms["searchForm"]["search"];
         let inputSearchName = searchName.value;   
-
-        let numCols = (window.innerWidth > 1000 ? 3 : 2);
-        console.log(window.innerWidth);
             
         while (container.lastElementChild) {
             container.removeChild(container.lastElementChild);

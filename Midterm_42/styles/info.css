@@ -9,9 +9,88 @@ main {
     height: auto;
 }
 
-#movieTitle {
-    text-align: center; /* Center text horizontally */
-    margin-top: 0; /* Remove default top margin */
-    margin-bottom: 20px; /* Add some bottom margin for spacing */
+/* left */
+#left {
+    margin-right: 20px;
 }
+
+#left img {
+    border-radius: 20px;
+}
+
+
+/* right */
+
+/* title */
+#title {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#title h1 {
+    font-size: 40px;
+}
+
+/* genres */
+#genres {
+    display: flex;
+    align-items: center;
+}
+
+#genres h3 {
+    font-size: large;
+}
+
+#genres ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+#genres ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: large;
+}
+
+/* release date */
+#releaseDate {
+    /* margin-bottom: 5px; */
+    display: flex;
+    align-items: center;
+}
+
+#releaseDate h3 {
+    font-size: large;
+    padding-right: 10px;
+}
+
+/* movie rating (pg...) */
+#mvRating {
+    display: flex;
+    align-items: center;
+}
+
+#mvRating h3 {
+    margin-right: 10px;
+}
+
+/* description */
+#description h3{
+    font-size: large;
+}
+
+#description p {
+    font-size: medium;
+}
+
+/* review ratings */
+#reviewRatings h3 {
+    font-size: large;
+}
+
+#reviewRatings p {
+    font-size: medium;
+}
+
 
