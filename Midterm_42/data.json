@@ -10,7 +10,11 @@
                 "IMDb": 7.4
             },
             "description": "John Wick is a legendary hitman who comes out of retirement to seek revenge against the men who killed his dog, a final gift from his recently deceased wife.",
-            "imgURL":"https://cdn.cinematerial.com/p/136x/qy0zafjv/john-wick-theatrical-movie-poster-sm.jpg?v=1456347225"
+            "imgURL":"https://cdn.cinematerial.com/p/136x/qy0zafjv/john-wick-theatrical-movie-poster-sm.jpg?v=1456347225",
+            "actors": [
+                {"imgUrl" : "https://image.tmdb.org/t/p/w185/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg", "name": "Keanu Reeves", "char": "John Wick"},
+                {"imgUrl" : "https://image.tmdb.org/t/p/w185/rteBJYNgD1yGsHg2HGZAIrYHz1t.jpg", "name": "Ian McShane", "char": "Winston"}
+            ]
         },
         {
             "title": "John Wick Chapter 2",
@@ -22,7 +26,10 @@
                 "IMDb": 7.5
             },
             "description": "Retired super-assassin John Wick's plans to resume a quiet civilian life are cut short when Italian gangster Santino D'Antonio shows up on his doorstep with a gold marker, compelling him to repay past favors.",
-            "imgURL": "https://cdn.cinematerial.com/p/297x/7aamvt9l/john-wick-chapter-two-theatrical-movie-poster-md.jpg?v=1482175534"
+            "imgURL": "https://cdn.cinematerial.com/p/297x/7aamvt9l/john-wick-chapter-two-theatrical-movie-poster-md.jpg?v=1482175534",
+            "actors": [
+                {"imgUrl" : "https://image.tmdb.org/t/p/w185/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg", "name": "Keanu Reeves", "char": "John Wick"},
+                {"imgUrl" : "https://image.tmdb.org/t/p/w185/rteBJYNgD1yGsHg2HGZAIrYHz1t.jpg", "name": "Ian McShane", "char": "Winston"}            ]
         },
         {
             "title": "Jumanji",
@@ -34,7 +41,11 @@
                 "IMDb": 7.0
             },
             "description": "When two kids find and play a magical board game, they release a man trapped in it for decades - and a host of dangers that can only be stopped by finishing the game.",
-            "imgURL": "https://media-cache.cinematerial.com/p/500x/hvl3uxpd/jumanji-movie-poster.jpg?v=1456229136"
+            "imgURL": "https://media-cache.cinematerial.com/p/500x/hvl3uxpd/jumanji-movie-poster.jpg?v=1456229136",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/iYdeP6K0qz44Wg2Nw9LPJGMBkQ5.jpg", "name":"Robin Williams", "char": "Alan Parrish"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/6RAAxI4oPnDMzXpXWgkkzSgnIAJ.jpg", "name":"Kirsten Dunst", "char":"Judy Shepherd"}
+            ]
         },
         {
             "title": "Jumanji: Welcome to the Jungle",
@@ -46,7 +57,11 @@
                 "IMDb": 6.9
             },
             "description": "Four high-school kids discover an old video-game console and are drawn into the game's jungle setting, literally becoming the adult avatars they chose. What they discover is that you don't just play Jumanji--you must survive it.",
-            "imgURL":"https://media-cache.cinematerial.com/p/500x/zeegh0s4/jumanji-welcome-to-the-jungle-movie-poster.jpg?v=1510596190"
+            "imgURL":"https://media-cache.cinematerial.com/p/500x/zeegh0s4/jumanji-welcome-to-the-jungle-movie-poster.jpg?v=1510596190",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/cgoy7t5Ve075naBPcewZrc08qGw.jpg", "name":"Dwayne Johnson", "char": "Dr. Smolder Bravestone"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/7OwsFfoxNGIfWwSmdORyB7v8XNj.jpg", "name":"Kevin Hart", "char": "Franklin 'Mouse' Finbar"}
+            ]
         },
         {
             "title": "The Dark Knight",
@@ -58,7 +73,11 @@
                 "IMDb": 9.0
             },
             "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-            "imgURL": "https://media-cache.cinematerial.com/p/500x/udapnxr3/the-dark-knight-movie-poster.jpg?v=1456051180"
+            "imgURL": "https://media-cache.cinematerial.com/p/500x/udapnxr3/the-dark-knight-movie-poster.jpg?v=1456051180",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/v2Oks7DTbZcKzSi2Pw58C7SSLzM.jpg", "name": "Christian Bale", "char": "Bruce Wayne/Batman"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/AdWKVqyWpkYSfKE5Gb2qn8JzHni.jpg", "name": "Heath Ledger", "char": "Joker"}
+            ]
         },
         {
             "title": "Inception",
@@ -70,7 +89,11 @@
                 "IMDb": 8.8
             },
             "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
-            "imgURL": "https://cdn.cinematerial.com/p/136x/7uwb4va7/inception-movie-poster-sm.jpg?v=1456797089"
+            "imgURL": "https://cdn.cinematerial.com/p/136x/7uwb4va7/inception-movie-poster-sm.jpg?v=1456797089",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg", "name": "Leonardo DiCaprio", "char": "Dom Cobb"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/z2FA8js799xqtfiFjBTicFYdfk.jpg", "name": "Joseph Gordon-Levitt", "char": "Arthur"}
+            ]
         },
         {
             "title": "Interstellar",
@@ -82,7 +105,11 @@
                 "IMDb": 8.6
             },
             "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-            "imgURL": "https://media-cache.cinematerial.com/p/500x/ctpnz4mq/interstellar-movie-poster.jpg?v=1456424450"
+            "imgURL": "https://media-cache.cinematerial.com/p/500x/ctpnz4mq/interstellar-movie-poster.jpg?v=1456424450",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/e9ZHRY5toiBZCIPEEyvOG9A8ers.jpg", "name": "Matthew McConaughey", "char": "Joseph Coop Cooper"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/yxonUjheNliiwkXKsy6BTONtyCx.jpg", "name": "Anne Hathaway", "char": "Dr. Amelia Brand"}
+            ]
         },
         {
             "title": "The Matrix",
@@ -94,7 +121,11 @@
                 "IMDb": 8.7
             },
             "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-            "imgURL": "https://media-cache.cinematerial.com/p/500x/sejtqyfp/the-matrix-movie-poster.jpg?v=1673723611"
+            "imgURL": "https://media-cache.cinematerial.com/p/500x/sejtqyfp/the-matrix-movie-poster.jpg?v=1673723611",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg", "name": "Keanu Reeves", "char": "Thomas A. Anderson/Neo"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/iwx7h0AfWMm9K4sMmhru3ShSra.jpg", "name": "Laurence Fishburne", "char": "Morpheus"}
+            ]
         },
         {
             "title": "The Godfather",
@@ -106,7 +137,11 @@
                 "IMDb": 9.2
             },
             "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-            "imgURL": "https://media-cache.cinematerial.com/p/500x/1suyyfwy/the-godfather-movie-poster.jpg?v=1456733600"
+            "imgURL": "https://media-cache.cinematerial.com/p/500x/1suyyfwy/the-godfather-movie-poster.jpg?v=1456733600",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/fuTEPMsBtV1zE98ujPONbKiYDc2.jpg", "name": "Marlon Brando", "char": "Don Vito Corleone"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/2dGBb1fOcNdZjtQToVPFxXjm4ke.jpg", "name": "Al Pacino", "char": "Michael Corleone"}
+            ]
         },
         {
             "title": "Fight Club",
@@ -118,7 +153,11 @@
                 "IMDb": 8.8
             },
             "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
-            "imgURL": "https://cdn.cinematerial.com/p/136x/mmionz4t/fight-club-movie-poster-sm.jpg?v=1456852437"
+            "imgURL": "https://cdn.cinematerial.com/p/136x/mmionz4t/fight-club-movie-poster-sm.jpg?v=1456852437",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg", "name":"Edward Norton", "char":"Narrator"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/eAOtKAc4p2C3DV8TGJQJzw8DeRv.jpg", "name": "Brad Pitt", "char": "Tyler Durden"}
+            ]
         },
         {
             "title": "Forrest Gump",
@@ -130,7 +169,11 @@
                 "IMDb": 8.8
             },
             "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
-            "imgURL": "https://media-cache.cinematerial.com/p/500x/hncfztv7/forrest-gump-movie-poster.jpg?v=1602182137"
+            "imgURL": "https://media-cache.cinematerial.com/p/500x/hncfztv7/forrest-gump-movie-poster.jpg?v=1602182137",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg", "name": "Tom Hanks", "char": "Forrest Gump"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/3IvlZd2PpT3Tuxy8lr6ymWLyoNU.jpg", "name": "Robin Wright", "char": "Jenny Curran"}
+            ]
         },
         {
             "title": "The Shawshank Redemption",
@@ -142,7 +185,11 @@
                 "IMDb": 9.3
             },
             "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-            "imgURL": "https://media-cache.cinematerial.com/p/500x/b5v2e9jg/the-shawshank-redemption-movie-poster.jpg?v=1596989012"
+            "imgURL": "https://media-cache.cinematerial.com/p/500x/b5v2e9jg/the-shawshank-redemption-movie-poster.jpg?v=1596989012",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/A4fHNLX73EQs78f2G6ObfKZnvp4.jpg", "name": "Tim Robbins", "char": "Andy Dufresne"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/jPsLqiYGSofU4s6BjrxnefMfabb.jpg", "name": "Morgan Freeman", "char": "Ellis Boyd 'Red' Redding"}
+            ]
         },
         {
             "title": "The Lion King",
@@ -154,7 +201,11 @@
                 "IMDb": 8.5
             },
             "description": "A Lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and his responsibilities.",
-            "imgURL": "https://cdn.cinematerial.com/p/60x/0d46ygou/the-lion-king-movie-poster-xs.jpg?v=1456076043"
+            "imgURL": "https://cdn.cinematerial.com/p/60x/0d46ygou/the-lion-king-movie-poster-xs.jpg?v=1456076043",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/papqFgpyroZJEqd7WvuNGN8ti2k.jpg", "name": "Matthew Broderick", "char": "Simba (voice)"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/3yQRnGSfbPWQDInZHTzzXsrAhUR.jpg", "name": "Moira Kelly", "char": "Nala (voice)"}
+            ]
         },
         {
             "title": "Titanic",
@@ -166,7 +217,11 @@
                 "IMDb": 7.8
             },
             "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
-            "imgURL" : "https://media-cache.cinematerial.com/p/500x/zv8lstqd/titanic-movie-poster.jpg?v=1704644889"
+            "imgURL" : "https://media-cache.cinematerial.com/p/500x/zv8lstqd/titanic-movie-poster.jpg?v=1704644889",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg", "name": "Leonardo DiCaprio", "char": "Jack Dawson"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/e3tdop3WhseRnn8KwMVLAV25Ybv.jpg", "name": "Kate Winslet", "char": "Rose DeWitt Bukater"}
+            ]
         },
         {
             "title": "Gladiator",
@@ -178,7 +233,11 @@
                 "IMDb": 8.5
             },
             "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
-            "imgURL" : "https://cdn.cinematerial.com/p/136x/eoqdxh0o/gladiator-movie-poster-sm.jpg?v=1456289024"
+            "imgURL" : "https://cdn.cinematerial.com/p/136x/eoqdxh0o/gladiator-movie-poster-sm.jpg?v=1456289024",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/fbzD4utSGJlsV8XbYMLoMdEZ1Fc.jpg", "name": "Russel Crowe", "char": "Maximus Meridius"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/ls72wfQl8AhRVFeBnotmnAdy3JR.jpg", "name": "Joaquin Pheonix", "char": "Emperor Commodus"}
+            ]
         },
         {
             "title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -190,7 +249,11 @@
                 "IMDb": 8.8
             },
             "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-            "imgURL" : "https://cdn.cinematerial.com/p/60x/wxujkcbm/the-lord-of-the-rings-the-fellowship-of-the-ring-movie-poster-xs.jpg?v=1594555579"
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/wxujkcbm/the-lord-of-the-rings-the-fellowship-of-the-ring-movie-poster-xs.jpg?v=1594555579",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg", "name": "Elijah Wood", "char": "Frodo Baggins"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg", "name": "Ian McKellen", "char": "Gandalf"}
+            ]
         },
         {
             "title": "Jurassic Park",
@@ -202,7 +265,11 @@
                 "IMDb": 8.1
             },
             "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
-            "imgURL" : "https://cdn.cinematerial.com/p/136x/4ubyv2go/jurassic-park-movie-poster-sm.jpg?v=1456328203"
+            "imgURL" : "https://cdn.cinematerial.com/p/136x/4ubyv2go/jurassic-park-movie-poster-sm.jpg?v=1456328203",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/iIfuxalf37xUayuGyK0zG7z6WEZ.jpg", "name": "Sam Neill", "char": "Dr. Alan Grant"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/gB9PnGEvxKg33OSlcqptQwTBwPE.jpg", "name": "Laura Dern", "char": "Dr. Ellie Sattler"}
+            ]
         },
         {
             "title": "The Avengers",
@@ -214,7 +281,11 @@
                 "IMDb": 8.0
             },
             "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
-            "imgURL" : "https://cdn.cinematerial.com/p/60x/tx5395zb/the-avengers-movie-poster-xs.jpg?v=1456637007"
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/tx5395zb/the-avengers-movie-poster-xs.jpg?v=1456637007",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/im9SAqJPZKEbVZGmjXuLI4O7RvM.jpg", "name": "Robert Downey Jr.", "char": "Tony Stark/Iron Man"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg", "name": "Chris Evans", "char": "Steve Rogers/Captain America"}
+            ]
         },
         {
             "title": "Avatar",
@@ -226,7 +297,11 @@
                 "IMDb": 7.8
             },
             "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-            "imgURL" : "https://media-cache.cinematerial.com/p/500x/flxsfhmz/avatar-movie-poster.jpg?v=1456063182"
+            "imgURL" : "https://media-cache.cinematerial.com/p/500x/flxsfhmz/avatar-movie-poster.jpg?v=1456063182",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/mflBcox36s9ZPbsZPVOuhf6axaJ.jpg", "name": "Sam Worthington", "char": "Jake Sully"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/iOVbUH20il632nj2v01NCtYYeSg.jpg", "name": "Zoe Saldaña", "char": "Neytiri"}
+            ]
         },
         {
             "title": "The Incredibles",
@@ -238,7 +313,11 @@
                 "IMDb": 8.0
             },
             "description": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
-            "imgURL" : "https://cdn.cinematerial.com/p/60x/zjwgvcd4/the-incredibles-movie-poster-xs.jpg?v=1615936903"
+            "imgURL" : "https://cdn.cinematerial.com/p/60x/zjwgvcd4/the-incredibles-movie-poster-xs.jpg?v=1615936903",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/rMh8qdexFKmc7mq7oLzsLLvCCjs.jpg", "name": "Craig T. Nelson", "char": "Bob Parr/Mr. Incredible (voice)"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/kC7KX03VAWvogOCuwKbMo4V6TuU.jpg", "name": "Holly Hunter", "char": "Helen Parr/Elastigirl (voice)"}
+            ]
         },
         {
             "title": "Toy Story",
@@ -250,7 +329,11 @@
                 "IMDb": 8.3
             },
             "description": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
-            "imgURL" : 	"https://cdn.cinematerial.com/p/60x/lxbemgwq/toy-story-movie-poster-xs.jpg?v=1456076617"
+            "imgURL" : 	"https://cdn.cinematerial.com/p/60x/lxbemgwq/toy-story-movie-poster-xs.jpg?v=1456076617",
+            "actors": [
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg", "name": "Tom Hanks", "char": "Woody (voice"},
+                {"imgUrl": "https://image.tmdb.org/t/p/w185/woWhZzFILVhYMAvsPL171HjMY0y.jpg", "name": "Tim Allen", "char": "Buzz Lightyear (voice"}
+            ]
         }        
     ],
     "genres": ["Action", "Adventure", "Animation", "Comedy", "Crime", "Drama", "Family", "Fantasy", "Romance", "Sci-Fi","Thriller"]

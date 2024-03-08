@@ -104,6 +104,40 @@ function loadInfo(movie) {
                 <p>Rotten Tomatoes: ${reviewRatings["Rotten Tomatoes"]}</p>
                 <p>IMDb: ${reviewRatings["IMDb"]}</p>
             `;
+
+            // Actors
+            let actors = movie.movies[i].actors;
+            let actorsDiv = document.createElement('div');
+            actorsDiv.id = "actors";
+            actorsDiv.innerHTML = `<h3>Actors</h3>`
+            let actorsList = document.createElement('div');
+            actorsList.id = "actorList";
+
+            for (var j = 0; j < actors.length; j++) {
+
+                let url = actors[j].imgUrl;
+                let name = actors[j].name;
+                let character = actors[j].char;
+
+                console.log(`${name}, ${character}`);
+
+                let innerdiv = document.createElement('div');
+                innerdiv.class = "actor";
+                innerdiv.innerHTML = `
+                    <div class="img">
+                        <img src="${url}" alt="Picture of ${name}">
+                    </div>
+                    <div class="text">
+                        <h4>${name}</h4>
+                        <p>${character}</p>
+                    </div>
+                `;
+
+                actorsList.append(innerdiv);
+            }
+
+            actorsDiv.append(actorsList);
+            document.getElementById('right').appendChild(actorsDiv);
         }
         
 

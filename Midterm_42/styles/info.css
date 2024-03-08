@@ -1,11 +1,12 @@
 main {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 500px auto;
     grid-template-areas: 
         "left right"
         "left right";
     padding-bottom: 75px;
     margin: 20px;
+    padding: 75px;
     height: auto;
 }
 
@@ -20,6 +21,9 @@ main {
 
 
 /* right */
+#right {
+    padding-left: 75px;
+}
 
 /* title */
 #title {
@@ -94,3 +98,25 @@ main {
 }
 
 
+/* actors */
+.img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.img img {
+    width: 60px; 
+    margin-top: -12.5px;
+}
+
+.actor .text h4 {
+    font-size: large;
+}
+
+.actor .text p {
+    font-size: medium;
+}
